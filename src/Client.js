@@ -21,6 +21,8 @@ import { Home } from './Models/home';
 import { HostedVideo } from './Models/hosted_video';
 import { Office } from './Models/office';
 import { Tweet } from './Models/tweet';
+import { EdwardPage1LinkTitle } from './Models/edwardPage1LinkTitle';
+
 
 // environment variables
 const projectId = process.env.REACT_APP_PROJECT_ID || '';
@@ -40,7 +42,8 @@ let typeResolvers = [
   new TypeResolver('home', () => new Home()),
   new TypeResolver('hosted_video', () => new HostedVideo()),
   new TypeResolver('office', () => new Office()),
-  new TypeResolver('tweet', () => new Tweet())
+  new TypeResolver('tweet', () => new Tweet()),
+  new TypeResolver('EdwardPage1LinkTitle', () => new EdwardPage1LinkTitle())
 ];
 
 const cookies = new Cookies(document.cookies);

@@ -16,6 +16,7 @@ import StorePage from './Pages/Store';
 import CoffeePage from './Pages/Coffee';
 import BrewerPage from './Pages/Brewer';
 import ContactsPage from './Pages/Contacts';
+import EdwardsPage1 from './Pages/EdwardsPage1';
 
 import {
   selectedProjectCookieName,
@@ -88,6 +89,12 @@ class App extends Component {
             path="/:lang?"
             render={matchProps => (
               <HomePage {...matchProps} language={language} />
+            )}
+          />
+          <Route
+            path="/:lang?/edwardpage1linktitle"
+            render={matchProps => (
+              <EdwardsPage1 {...matchProps} language={language} />
             )}
           />
           <Route

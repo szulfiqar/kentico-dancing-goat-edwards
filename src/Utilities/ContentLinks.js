@@ -42,6 +42,10 @@ export function resolveContentLink(link, language) {
       resultLink = '/contacts';
       break;
 
+    case 'edwardPage1LinkTitle':
+      resultLink = '/edwardPage1LinkTitle';
+      break;
+
     case 'home':
       resultLink = '/';
       break;

@@ -51,6 +51,11 @@ const Header = props => {
                   {props.t('contactsLinkTitle')}
                 </Link>
               </li>
+              <li>
+                <Link to={`/${props.language}/edwardPage1LinkTitle`}>
+                  {props.t('edwardPage1LinkTitle')}
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="additional-menu-buttons user-menu">

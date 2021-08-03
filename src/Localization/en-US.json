@@ -31,7 +31,8 @@
     "articlesLinkTitle": "Articles",
     "aboutLinkTitle": "About us",
     "cafesLinkTitle": "Cafes",
-    "contactsLinkTitle": "Contact"
+    "contactsLinkTitle": "Contact",
+    "edwardPage1LinkTitle": "Edwards Demo Page 1"
   },
   "Store": {
     "coffeesLinkTitle": "Coffees",
