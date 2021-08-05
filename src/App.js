@@ -35,7 +35,7 @@ class App extends Component {
     const infoMessage = qs.parse(location.search.slice(1)).infoMessage;
     return (
       <div className="application-content">
-        <Metadata />
+        {/* <Metadata /> */}
         <Spinner name="apiSpinner">
           <div className="loader-bg">
             <div className="loader" />
