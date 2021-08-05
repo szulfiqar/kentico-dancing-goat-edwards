@@ -41,9 +41,7 @@
   "scripts": {
     "precommit": "lint-staged",
     "start": "react-scripts start",
-    "build": "cross-env CI=true react-scripts build && cpy build/index.html build --rename=200.html",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "cross-env CI=true react-scripts build && cpy build/index.html build --rename=200.html"
   },
   "eslintConfig": {
     "extends": "react-app"
