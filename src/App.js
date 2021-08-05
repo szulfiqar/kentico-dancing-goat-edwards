@@ -3,7 +3,7 @@ import { withCookies } from 'react-cookie';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import qs from 'qs';
 import { Spinner } from '@simply007org/react-spinners';
-import Metadata from './Components/Metadata';
+// import Metadata from './Components/Metadata';
 
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
