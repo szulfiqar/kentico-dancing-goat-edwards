@@ -4,7 +4,7 @@ import { translate } from 'react-translate';
 const URL = props => {
     const { data } = props;
     return (
-        <div>
+        <div style={{marginTop: '5px'}}>
             <a className="btn edw-btn btn-lg" href={data.url.value}>
                 <i className="ico ico-book"></i>
                 {data.title.value}
