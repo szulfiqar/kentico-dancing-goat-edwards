@@ -1,5 +1,6 @@
+/* eslint-disable */
 import React from 'react';
-import Link from '../Components/LowerCaseUrlLink';
+// import Link from '../Components/LowerCaseUrlLink';
 import { translate } from 'react-translate';
 const Footer = props => {
   return (

@@ -5,7 +5,7 @@ const URL = props => {
     const { data } = props;
     return (
         <div>
-            <a className="btn edw-btn btn-lg" target="_blank" href={data.url.value}>
+            <a className="btn edw-btn btn-lg" href={data.url.value}>
                 <i className="ico ico-book"></i>
                 {data.title.value}
             </a>

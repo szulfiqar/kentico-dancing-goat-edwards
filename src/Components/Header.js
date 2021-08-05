@@ -1,12 +1,13 @@
+/* eslint-disable */
 import React from 'react';
 import { translate } from 'react-translate';
 
-import Link from '../Components/LowerCaseUrlLink';
-import { englishCode, spanishCode } from '../Utilities/LanguageCodes';
+// import Link from '../Components/LowerCaseUrlLink';
+// import { englishCode, spanishCode } from '../Utilities/LanguageCodes';
 import MessageBox from './MessageBox';
 
 const Header = props => {
-  const messageBox = props.message && <MessageBox message={props.message} />;
+  // const messageBox = props.message && <MessageBox message={props.message} />;
   return (
     // <header className="header" role="banner">
     //   <div className="menu">

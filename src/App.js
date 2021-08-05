@@ -7,7 +7,7 @@ import Metadata from './Components/Metadata';
 
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
-import HomePage from './Pages/Home';
+// import HomePage from './Pages/Home';
 import ArticlesPage from './Pages/Articles';
 import ArticlePage from './Pages/Article';
 import AboutPage from './Pages/About';
