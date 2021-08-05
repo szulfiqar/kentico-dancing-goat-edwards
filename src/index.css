@@ -91,7 +91,8 @@ ul.react-tabs__tab-list li.react-tabs__tab--selected{
   background-image: url(./Images/expand-all-btn.png);
 }
 .expand-plus-sign{ 
-cursor: pointer;
+  cursor: pointer;
+  float: right;
 }
 .accordion__panel ul{ 
   margin-top:5px;
