@@ -76,10 +76,10 @@ class EdwardsPage1 extends Component {
     console.log(content);
 
     return (
-      <div className="container">
+      <div>
         {content && <div>
           <Banner data={content} />
-          <div>
+          <div className="container">
             <Tabs>
               <TabList>
                 {
@@ -116,4 +116,3 @@ class EdwardsPage1 extends Component {
 }
 
 export default translate('EdwardsPage1')(EdwardsPage1);
-

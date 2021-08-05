@@ -1,12 +1,111 @@
-
+body {
+  font-family: 'Merriweather Sans',Arial,sans-serif;
+}
 .edw-btn {
-  color: #fff !important; 
+  color: #fff !important;
   border: 1px solid #7c8080 !important;
-    background-color: #898d8d !important;
+  background-color: #898d8d !important;
 }
 
 .edw-btn:hover {
   color: #fff !important;
   border-color: #780a1c !important;
   background-color: #990c23 !important;
+}
+ul {
+  margin-bottom: 0px !important;
+}
+ul.react-tabs__tab-list {
+  border-bottom-width: 0;
+  display: block;
+  width: 100%;
+  font-family: 'Merriweather Sans',Arial,sans-serif;
+}
+ul.react-tabs__tab-list {
+  margin-right: 0px;
+  list-style: none;
+}
+
+.ul.react-tabs__tab-list {
+  border-bottom-width: 0;
+  display: block;
+  width: 100%;
+  font-family: 'Merriweather Sans',Arial,sans-serif;
+}
+ul.react-tabs__tab-list {
+  margin: 0;
+  list-style: none;
+}
+ul.react-tabs__tab-list li {
+  float: left;
+  margin-right: 5px;
+}
+ul.react-tabs__tab-list li {
+  padding: 0 2px 0 1px;
+  float: none;
+  width: 40%;
+  border-width: 0;
+  vertical-align: middle;
+  height: 57px;
+  padding: 0 10px;
+  line-height: 57px;
+  border:0px ;
+  border-radius: 0px;
+  background-color: #898d8d;
+  color:#fff;
+}
+ul.react-tabs__tab-list li{ 
+  border-bottom: 0;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather Sans',Arial,sans-serif;
+}
+ul.react-tabs__tab-list li.react-tabs__tab--selected{ 
+
+  background-color: #edeeee;
+  color: #505759;
+}
+.accordion__button{ 
+
+  color: #505759;
+  background: #fff;
+  display: block;
+  padding: 9px 20px;
+  position: relative;
+  font-size: 24px;
+  font-family: 'Merriweather Sans';
+  margin-bottom: 5px;
+}
+.accordion__button[aria-expanded="true"]{ 
+  background: #c8102e!important;
+  color:#fff;
+}
+.accordion__panel{ 
+  border:0px;
+}
+.accordion{ 
+  border:0px;
+}
+.expand-plus-sign {
+  background-image: url(./Images/expand-all-btn.png);
+}
+.expand-plus-sign{ 
+cursor: pointer;
+}
+.accordion__panel ul{ 
+  margin-top:5px;
+  list-style-type: none;
+  position: relative;
+  color: #505759;
+  padding-left: 17px;
+}
+:after, :before {
+  box-sizing: border-box;
+}
+.accordion__panel ul li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #c8102e;
 }

@@ -14,7 +14,7 @@ const Accordian = props => {
     const { data } = props;
     return (
         <div>
-            <button>Expand All</button>
+            <span class="glyphicon expand-plus-sign"></span>
 
             <Accordion allowMultipleExpanded={true}>
                 {
