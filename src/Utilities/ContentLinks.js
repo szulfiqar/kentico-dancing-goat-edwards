@@ -51,7 +51,7 @@ export function resolveContentLink(link, language) {
       break;
 
     default:
-      resultLink = '';
+      resultLink = '/';
       break;
   }
 

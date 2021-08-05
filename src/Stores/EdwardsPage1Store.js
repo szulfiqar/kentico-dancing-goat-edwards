@@ -3,7 +3,6 @@ import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 import {
   initLanguageCodeObject,
-  defaultLanguage,
   languageCodes
 } from '../Utilities/LanguageCodes';
 import { spinnerService } from '@simply007org/react-spinners';
@@ -35,13 +34,15 @@ let fetchDetails = language => {
     return;
   }
 
+  // let query = Client.items().equalsFilter('system.codename', 'page_clot_management');
   let query = Client.items()
-    .type('edwards_demo');
+    .type('edwards_clotmang_model')
   // if (language) {
   //   query.languageParameter(language);
   // }
 
   query
+    .depthParameter(10)
     .toObservable()
     .pipe(takeUntil(unsubscribe))
     .subscribe(response => {
@@ -82,6 +83,9 @@ class Edwards {
 
 
   fetchPageDetails(language) {
+    if (spinnerService.isShowing('apiSpinner') === false) {
+      spinnerService.show('apiSpinner');
+    }
     fetchDetails(language);
   }
 

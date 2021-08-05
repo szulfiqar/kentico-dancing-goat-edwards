@@ -88,7 +88,8 @@ class App extends Component {
             exact
             path="/:lang?"
             render={matchProps => (
-              <HomePage {...matchProps} language={language} />
+              // <HomePage {...matchProps} language={language} />
+              <EdwardsPage1 {...matchProps} language={language} />
             )}
           />
           <Route

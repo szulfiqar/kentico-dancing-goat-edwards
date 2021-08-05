@@ -6,7 +6,7 @@ const Metadata = props => {
   return (
     <Helmet>
       {!_.has(props, 'title.value') || props.title.value.trim().length === 0 ? (
-        <title>Dancing Goat</title>
+        <title>Clot management | Edwards Lifesciences</title>
       ) : (
         <title>{props.title.value.trim()}</title>
       )}

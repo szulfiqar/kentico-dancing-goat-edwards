@@ -6173,3 +6173,28 @@ body {
 .application-content > div:first-child {
   display: block !important;
 }
+
+.tab-list-item {
+  background-color: #edeeee;
+  color: #505759;
+  border: none;
+}
+
+.react-tabs__tab--selected {
+  background-color: #edeeee !important;
+  color: #505759 !important;
+  border: none !important;
+  border-radius: unset !important;
+}
+
+.edw-btn {
+  color: #fff !important; 
+  border: 1px solid #7c8080 !important;
+    background-color: #898d8d !important;
+}
+
+.edw-btn:hover {
+  color: #fff !important;
+  border-color: #780a1c !important;
+  background-color: #990c23 !important;
+}

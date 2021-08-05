@@ -1,0 +1,1300 @@
+.clarity-well .dropdown-menu li a {
+    white-space: normal;
+}
+
+.clarity-well .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: #898d8d;
+}
+
+#tabs-0 {
+    overflow: visible;
+}
+
+body {
+    font-size: 16px
+}
+
+@media (max-width: 991px) {
+    .edw-block p {
+        font-size: 16px
+    }
+}
+
+.edw-btn.btn-lg {
+    padding: 7px 20px;
+    line-height: 26px;
+    border-width: 1px;
+    font-size: 20px
+}
+
+h2, section.edw-block .h2 {
+    font-size: 28px;
+    line-height: 44.8px;
+    font-size: 2.8rem;
+    line-height: 4.48rem
+}
+
+h3 {
+    color: #000;
+    font-size: 21px;
+    line-height: 33.6px;
+    font-size: 2.1rem;
+    line-height: 3.36rem
+}
+
+h3.accent-header {
+    color: #C8102E;
+    font-weight: 700
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 28.8px;
+    font-size: 1.8rem;
+    line-height: 2.88rem
+}
+
+.edw-block p.lead {
+    font-size: 1.25em;
+    line-height: 31px;
+    color: #000
+}
+
+@media (min-width: 768px) {
+    .edw-block p.lead {
+        font-size: 1.5em;
+        line-height: 38px
+    }
+}
+
+/*.nav.nav-tabs li:last-child {
+    display: none !important
+}*/
+
+.tabs .edw-m-container ul.tab-nav li {
+    width: 16.6%
+}
+
+@media (max-width: 767px) {
+    .tabs .edw-m-container ul.tab-nav li {
+        height: auto
+    }
+
+    .tabs .edw-m-container ul.tab-nav li a {
+        height: auto;
+        font-size: 15px;
+        line-height: 24px;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        padding: 10px
+    }
+
+    .tabs .edw-m-container ul.tab-nav li a span {
+        line-height: 22px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tabs .edw-m-container ul.tab-nav li {
+        height: 85px
+    }
+
+    .tabs .edw-m-container ul.tab-nav li a {
+        height: 85px;
+        padding: 10px
+    }
+}
+
+@media (min-width: 991px) {
+    .tabs .edw-m-container ul.tab-nav li {
+        height: 110px
+    }
+
+    .tabs .edw-m-container ul.tab-nav li a {
+        height: 110px;
+        padding: 10px;
+        line-height: 85px
+    }
+}
+
+@media (max-width: 480px) {
+    #tabs-2 {
+        margin-bottom: 0px !important
+    }
+
+    #mktoForm_2466 select.mktoField {
+        padding: 0 12px !important;
+        font-size: 14px !important
+    }
+
+    .mktoForm a {
+        padding-right: 0px;
+        padding-left: 0px
+    }
+}
+
+@media (min-width: 768px) {
+    .intro-wrap {
+        padding: 40px 0
+    }
+}
+
+/*.edw-block.tabslider-start {
+    padding: 30px 0 !important;
+    margin: 0 !important
+}*/
+
+.edw-block.tabslider-start.nobottompadding {
+    padding: 0 !important
+}
+
+figure.figure {
+    margin: 40px 0
+}
+
+@media (min-width: 768px) {
+    figure.figure {
+        margin: 40px 0 0
+    }
+}
+
+figure.figure img {
+    margin-bottom: 10px
+}
+
+figure.figure figcaption {
+    font-size: 14px;
+    line-height: 22.4px;
+    font-size: 1.4rem;
+    line-height: 2.24rem
+}
+
+tfoot {
+    font-size: 14px;
+    line-height: 22.4px;
+    font-size: 1.4rem;
+    line-height: 2.24rem
+}
+
+.blockquote {
+    border-left: none;
+    background-color: #648891;
+    padding: 15px;
+    color: #fff
+}
+
+@media (min-width: 768px) {
+    .blockquote {
+        padding: 25px
+    }
+}
+
+.blockquote p {
+    font-size: 18px;
+    line-height: 28.8px;
+    font-size: 1.8rem;
+    line-height: 2.88rem;
+    font-style: italic
+}
+
+@media (min-screen: 768px) {
+    .blockquote p {
+        font-size: 22px;
+        line-height: 35.2px;
+        font-size: 2.2rem;
+        line-height: 3.52rem
+    }
+}
+
+.blockquote cite {
+    font-size: 14px;
+    line-height: 22.4px;
+    font-size: 1.4rem;
+    line-height: 2.24rem;
+    display: block;
+    text-align: right
+}
+
+.cards-outer {
+    margin: 30px 0
+}
+
+@media (min-width: 768px) {
+    .cards-outer {
+        display: flex;
+        margin: 40px 0
+    }
+}
+
+.cards-outer .card {
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, 0.16);
+    height: 100%;
+    background: #fff
+}
+
+.cards-outer .card .card-body {
+    padding: 20px
+}
+
+.cards-outer .card h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.375em;
+    line-height: 34px;
+    margin-bottom: 17px
+}
+
+.cards-outer .card img {
+    margin-bottom: 20px
+}
+
+@media (min-width: 768px) {
+    .cards-outer .card img {
+        margin-bottom: 40px
+    }
+}
+
+.stickyform {
+    background: #eaeaea;
+    padding: 30px;
+    width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.3)
+}
+
+.stickycontact {
+    position: fixed;
+    top: 30%;
+    transform: translateY(-30%);
+    right: 0;
+    z-index: 101
+}
+
+.stickycontact .stickycontact-btn {
+    display: block;
+    transform-origin: 100% 50%;
+    transform: rotate(90deg) translate(100%, 50%);
+    padding: 10px 20px;
+    background: #c8102e;
+    color: #fff;
+    text-decoration: none
+}
+
+.stickycontact .stickycontact-btn span {
+    font-size: 17px;
+    line-height: 27.2px;
+    font-size: 1.7rem;
+    line-height: 2.72rem
+}
+
+.stickycontact .stickycontact-btn:active, .stickycontact .stickycontact-btn:visited, .stickycontact .stickycontact-btn:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: none
+}
+
+.stickycontact .stickycontact-btn:hover {
+    color: #fff
+}
+
+.list li::before {
+    content: none !important
+}
+
+@media only screen and (max-width: 480px){
+    #mktoForm_2466 select.mktoField, mktoField, form.mktoForm input[type=text], form.mktoForm input[type=url], form.mktoForm input[type=email], form.mktoForm input[type=tel], form.mktoForm input[type=number], form.mktoForm input[type=date], form.mktoForm textarea.mktoField, #mktoForm_2466 textarea, form.mktoForm div.mktoHtmlText p, .mktoRadioList.mktoHasWidth.mktoRequired label, form.mktoForm textarea,.mktoForm .mktoFormRow .mktoField,form.mktoForm select.mktoField {
+        font-size: 12px !important;
+    }
+    .mktoHtmlText.mktoHasWidth p{
+        position: relative;
+        left: 10%;
+    }
+    .mktoForm a {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .mktoForm .mktoRadioList, .mktoForm .mktoCheckboxList {
+        width: auto;
+        padding: 0px;
+    }
+    .mktoRadioList.mktoHasWidth.mktoRequired input.mktoField {
+        clear: left !important;
+        margin-top:0px;
+    }
+    .mktoRadioList.mktoHasWidth.mktoRequired label{
+        padding-top:3px !important;
+
+    }
+}
+@media only screen and (max-width: 1024px) {
+    form.mktoForm input[type=radio] {
+        margin-top: 0px;
+    }
+    .mktoRadioList.mktoHasWidth.mktoRequired label {
+        padding-top: 1px;
+    }
+}
+@media only screen and (min-width: 480px){
+    form.mktoForm select.mktoField {
+        font-size: 16px !important;
+    }
+
+}
+form.mktoForm select.mktoField.open {
+    background-position: right -37px !important;
+}
+form.mktoForm select.mktoField {
+    padding: 0 12px !important;
+
+    font-family: 'Merriweather Sans', Arial, sans-serif !important;
+    vertical-align: middle !important;
+    background-repeat: no-repeat;
+    background-position: right 3px !important;
+}
+
+#consent_blackbar {
+    position: fixed;
+    bottom: 0;
+    z-index: 100000000;
+    width:100%;
+    margin:auto;
+    max-width: 1400px;
+    left: 0;
+    right: 0;
+    font-family: 'Merriweather Sans', Arial, sans-serif !important;
+}
+
+#consent_blackbar * {
+    font-family: 'Merriweather Sans', Arial, sans-serif !important;
+}
+
+#truste-consent-track {
+    border:none !Important;
+}
+
+#consent_blackbar a {
+    color: white;
+    text-decoration: underline !important;
+}
+
+#truste-consent-button, #truste-consent-required, #truste-show-consent {
+    color: #ffffff !important;
+    padding: 3px 20px !important;
+    line-height: 24px !important;
+    border-width: 0px !important;
+    font-size: 16px !important;
+    font-family: 'Merriweather Sans', Arial, sans-serif !important;
+}
+
+#truste-consent-button {
+    background-color: #c8102e !important;
+}
+
+#truste-consent-track {
+    background-color: #9A9B9B !important;
+}
+
+#truste-consent-required, #truste-show-consent {
+    background-color: #B7B09C !important;
+}
+
+#truste-consent-required:hover, #truste-show-consent:hover {
+    background-color: #948f7f !important;
+}
+
+#truste-consent-button:hover {
+    color: #fff !important;
+    background-color: #990c23 !important;
+}
+
+.truste-messageColumn {
+    margin: 10px 0px 10px 0px !important;
+}
+
+#truste-consent-track {
+    padding: 15px 60px;
+}
+
+@media (max-width: 1024px){
+    #truste-consent-track {
+        padding: 15px 15px !important;
+    }
+    .truste-buttonsColumn {
+        float: left !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .nav-footer-links {
+        width:48% !important;
+    }
+}
+li.mobileview_socialicons ul li {
+    padding-left: 0px !important;
+}
+li.mobileview_socialicons ul {
+    padding-left: 0px !important;
+}
+.mobileview_socialicons {
+    padding-left: 0px !important;
+}
+#footer .nav li a {
+    margin: 0 0px !important ;
+}
+ul.social li{
+    padding-right: 4px !important;
+    padding-bottom: 10px !important;
+}
+ul.nav-pages li{
+    padding-right: 15px  !important;
+    padding-left:0px !important;
+}
+#footer .extramargin {
+    padding: 0px;
+    margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 1199px) {
+    .nav-footer-links {
+        width:48% !important;
+    }
+}
+li.mobileview_socialicons ul li {
+    padding-left: 0px !important;
+}
+li.mobileview_socialicons ul {
+    padding-left: 0px !important;
+}
+.mobileview_socialicons {
+    padding-left: 0px !important;
+}
+#footer .nav li a {
+    margin: 0 0px !important ;
+}
+ul.social li{
+    padding-right: 4px !important;
+    padding-bottom: 10px !important;
+}
+ul.nav-pages li{
+    padding-right: 15px  !important;
+    padding-left:0px !important;
+}
+#footer .extramargin {
+    padding: 0px;
+    margin-bottom: 0px !important;
+}
+
+section#tabs-1 {
+    padding-bottom: 0px !important;
+}
+.text-underline {
+    text-decoration: underline;
+}
+
+.btn-xl {
+    display: block;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+@media(min-width: 768px){
+    .btn-xl {
+        padding: 10px 30px;
+        max-width: 290px;
+    }
+}
+
+#trial-search>.btn-outline {
+    background: none;
+    border: 2px solid white;
+}
+
+#trial-search>.btn-outline:hover {
+    background: #262f35;
+}
+
+.circle {
+    height: 219px;
+    width: 219px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle img {
+    align-self: center;
+    max-height: 80px;
+    margin-bottom: 10px;
+}
+
+.circle p {
+    text-align: center;
+    font-size: 16px !important;
+    line-height: 20px !important;
+}
+
+
+@media (max-width: 767px) {
+
+    .twentytwenty-wrapper {
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        font-size: 28px !important;
+    }
+}
+
+
+.m-pb60 {
+    padding-bottom: 30px !important;
+}
+
+#heart-icon {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media(min-width:768px) {
+    #heart-icon {
+        max-width: none;
+    }
+}
+
+
+.clasp-icon {
+    max-width: 260px;
+}
+
+.dark-well {
+    background: #333f48;
+    color: white;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+@media(min-width:768px) {
+    .dark-well {
+        padding: 30px 80px;
+    }
+}
+
+ol.trials {
+    counter-reset: counter;
+    list-style: none;
+    padding-left: 33px;
+}
+
+ol.trials li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: counter;
+    position: relative;
+}
+
+ol.trials li::before {
+    content: counter(counter);
+    color: #ffffff;
+    font-size: 2.5rem;
+    position: absolute;
+    --size: 43px;
+    left: calc(-1 * var(--size) - 15px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: #af95a6;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.list-separator {
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#trial-search {
+    background: #333f48;
+    padding: 30px;
+    color: white;
+    height: 100%;
+    position: relative;
+}
+
+#trial-search h2 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.trail-search-container {
+    display: block;
+}
+
+@media(min-width:768px) {
+    #trial-search {
+        background: #333f48 url('//edwardsprod.blob.core.windows.net/media/Default/devices/heart%20valves/transcatheter/clasp/trial-search-bg.svg') no-repeat bottom right;
+    }
+
+    .trial-search-container {
+        display: flex;
+    }
+}
+
+
+.pageBannerContainer .redbox-lg h1.forcesmall {
+    font-size: 22px;
+}
+
+_:-ms-fullscreen,
+:root #trial-design .item {
+    flex: 1 20%;
+}
+
+_:-ms-fullscreen,
+:root #trial-design :first-child.item::after,
+#trial-design :nth-child(3).item::after {
+    top: 86px;
+}
+
+
+/* ==============================
+                        GENERAL
+                    ================================*/
+
+/*Common class to add top/bottom padding*/
+.section-divider {
+    padding: 30px 0;
+}
+
+h3, h4 {
+    color: #000;
+}
+
+@media(max-width: 767px){
+    h4 {
+        font-size: 20px;
+    }
+}
+
+.h2.pad.pt60 {
+    display: none;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.tabslider-start {
+    margin-top: 0px;
+}
+
+.tabs {
+    position: relative;
+    z-index: 2;
+}
+
+.edw-block p {
+    margin-bottom: 20px;
+}
+
+.htmlcontent p,
+.edw-block p,
+.list li {
+    font-size: 16px;
+    line-height: 2.3rem;
+}
+
+.center-content {
+    display: flex !important;
+    align-items: center !important;
+}
+
+@media (min-width: 768px) {
+    .center-content {
+        min-height: 230px
+    }
+}
+
+@media (min-width: 992px) {
+    .center-content {
+        min-height: 300px
+    }
+}
+
+
+.edw-block p.reference {
+    font-size: 15px;
+    line-height: 2.3rem;
+}
+
+.list li {
+    margin-bottom: 10px
+}
+
+@media (min-width: 768px) {
+
+    .edw-block p,
+    .htmlcontent p,
+    .list li {
+        font-size: 20px;
+        line-height: 2.8rem;
+    ;
+    }
+
+    .section-divider {
+        padding: 90px 0px 50px 0px;
+    }
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center !important;
+    height: 100%;
+}
+
+
+hr.white {
+    border-top: 5px solid white;
+    margin-top: 40px;
+}
+
+@media(min-width:768px) {
+    .v-center {
+        display: flex;
+    }
+
+    .v-center .col-sm-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    hr.white {
+        margin-top: 100px;
+    }
+}
+
+
+#tabs-0::after,
+#mr::after,
+#tabs-2::after,
+#tabs-3::after,
+#patient-arrow::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    z-index: 1;
+}
+
+.tabs ul.tab-nav li {
+    width: 20%;
+}
+
+.clasp-links a img {
+    transition: box-shadow 0.2s;
+}
+
+@media (min-width: 767px) {
+    .clasp-links a img {
+        max-width: 310px;
+    }
+}
+
+.clasp-links a:hover img,
+.clasp-links a:focus img {
+    box-shadow: -3px 6px 7px rgba(0, 0, 0, 0.2784313725490196);
+    transition: box-shadow 0.2s;
+}
+
+
+/* ==============================
+                        ABOUT THIS TRIAL
+                    ================================*/
+
+#tabs-0 {
+    background: #fff;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+
+.edw-gray .edw-btn,
+.edw-gray-btn {
+    border: 1px solid #c8102e;
+    background-color: #c8102e;
+}
+
+.edw-btn:hover {
+    color: #fff;
+    border-color: #780a1c;
+    background-color: #990c23;
+}
+
+#tabs-0::after {
+    border-top: solid 50px #fff;
+    z-index: 1;
+}
+
+.edw-btn.btn-lg {
+    padding: 7px 20px;
+    line-height: 26px;
+    border-width: 1px;
+    font-size: 20px;
+}
+
+
+.clasp-logo {
+    max-width: 211px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 767px) {
+    .clasp-logo {
+        margin-top: 113px;
+    }
+}
+
+@media (min-width: 992px) {
+    .clasp-logo {
+        margin-top: 89px;
+    }
+}
+
+.download-btn a {
+    display: block;
+}
+
+@media (min-width: 767px) {
+
+    .download-btn a {
+        display: inline-block;
+    }
+}
+
+/* ==============================
+                        WHAT IS MITRAL REGURGITATION?
+                    ================================*/
+
+#mr {
+    background: #af95a6;
+    position: relative;
+    overflow: visible;
+
+}
+
+#mr::after {
+    border-top: solid 50px #af95a6;
+}
+
+#mr img {
+    max-height: 350px;
+}
+
+#mr * {
+    color: #ffffff;
+}
+
+/* ==============================
+                        The Pascal Device
+                    ================================*/
+
+#tabs-2 {
+    position: relative;
+    overflow: visible;
+}
+
+#tabs-2::after {
+    border-top: solid 50px #FFFFFF;
+}
+
+.repair-system {
+    background: url(https://www.edwards.com/Media/Default/devices/Heart%20Valves/Transcatheter/CLASP/repair-system.jpg) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width:768px) {
+    .repair-system {
+        background: url(https://www.edwards.com/Media/Default/devices/Heart%20Valves/Transcatheter/CLASP/repair-system.jpg) no-repeat;
+        background-position: center;
+        height: 240px;
+    }
+}
+
+#tab-2-section-name.container,
+#tab-4-section-name.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.with-bottom-border {
+    border-bottom: 5px solid #e7e8e9;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .repair-system-header {
+        display: none;
+    }
+
+    .repair-system-header-2 {
+        color: #cc2128;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .pascal-implant {
+        padding-bottom: 20px
+    }
+
+    .repair-system-header {
+        padding: 56px 0;
+    }
+
+    .repair-system-header {
+        display: block;
+        color: #c8102e;
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+
+    .repair-system-header-2 {
+        display: none;
+    }
+
+    .patient-selection .repair-system-header {
+        color: #cc2128;
+        text-shadow: none;
+    }
+
+}
+
+/* @media (min-width: 991px) {
+                                        .repair-system-header {
+                                            padding: 106px 0;
+                                        }
+                                    } */
+
+.video-container {
+    position: relative;
+    display: block;
+}
+
+.video-container:hover .video-arrow {
+    opacity: 1;
+}
+
+.video-overlay {
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.video-arrow-wrap {
+    display: flex;
+    align-items: center !important;
+    height: 100%;
+}
+
+.video-arrow {
+    width: 109px;
+    opacity: .5;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* ==============================
+                        Trial Design
+                    ================================*/
+#tabs-3 {
+    position: relative;
+    overflow: visible;
+}
+
+#tabs-3::after {
+    border-top: solid 50px #edeeee;
+}
+
+#trial-design {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#trial-design .item img {
+    display: block;
+    margin: 0 auto 10px;
+    max-height: 50px;
+}
+
+#trial-design .item {
+    background: white;
+    height: 200px;
+    text-align: center;
+    margin: 2.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+
+#trial-design.six .item {
+    flex: 1 30%;
+    padding: 17px;
+}
+
+
+#trial-design.six .item:nth-child(2),
+#trial-design.six .item:nth-child(5) {
+    flex: 1 18%;
+}
+
+
+#trial-design.six .item:nth-child(2)::after,
+#trial-design.six .item:nth-child(5)::after {
+    content: url('//edwardsprod.blob.core.windows.net/media/Default/devices/heart%20valves/transcatheter/clasp/media/default/devices/heart valves/transcatheter/clasp/plus.svg');
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: -18px;
+    z-index: 1;
+}
+
+#trial-design.six .item:first-child::after,
+#trial-design.six .item:nth-child(4)::after {
+    content: url('//edwardsprod.blob.core.windows.net/media/Default/devices/heart%20valves/transcatheter/clasp/media/default/devices/heart valves/transcatheter/clasp/circle-arrow.svg');
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: -18px;
+    z-index: 1;
+}
+
+@media(min-width:768px) {
+
+    #trial-design.six .item:nth-child(2)::after,
+    #trial-design.six .item:nth-child(5)::after {
+        height: 45px;
+        width: 45px;
+        right: -25px;
+    }
+
+    #trial-design.six .item:first-child::after,
+    #trial-design.six .item:nth-child(4)::after {
+        height: 45px;
+        width: 45px;
+        right: -25px;
+    }
+}
+
+#cohort-design {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cohort-design p {
+    font-size: 16px;
+}
+
+#cohort-design .item {
+    background: white;
+    margin: 5px;
+    color: black;
+    flex: 1 998px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cohort-design .item:nth-child(3),
+#cohort-design .item:nth-child(4) {
+    flex: 1;
+}
+
+#cohort-design .item:not(:first-child)::after {
+    content: url('//edwardsprod.blob.core.windows.net/media/Default/devices/heart%20valves/transcatheter/clasp/media/default/devices/heart valves/transcatheter/clasp/circle-arrow.svg');
+    width: 45px;
+    height: 45px;
+    top: -28px;
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+
+
+
+/* ==============================
+                        Eligibility Enrollment
+                    ================================*/
+
+#patient-arrow {
+    position: relative;
+    overflow: visible;
+
+}
+
+#patient-arrow::after {
+    border-top: solid 50px #FFFFFF;
+}
+
+#patient .item {
+    background: #edeeee;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 27px 40px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+#patient .item:not(:first-child)::after {
+    content: url('//edwardsprod.blob.core.windows.net/media/Default/devices/heart%20valves/transcatheter/clasp/media/default/devices/heart valves/transcatheter/clasp/circle-arrow-white.svg');
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    z-index: 1;
+    top: -28px;
+}
+
+#patient .item:last-child {
+    margin-bottom: 0px;
+}
+
+#patient .item img {
+    max-width: 50px;
+}
+
+#patient .item p {
+    flex: 1;
+    color: #000000;
+    position: relative;
+}
+
+@media(min-width:992px) {
+    #patient .item p {
+        margin-left: -50px;
+    }
+}
+
+
+
+.patient-selection {
+    background: url('//edwardsprod.blob.core.windows.net/media/Default/devices/heart%20valves/transcatheter/clasp/media/default/devices/heart valves/transcatheter/clasp/patien-selection.jpg') no-repeat center -16px;
+    background-size: auto 201px;
+}
+
+
+@media (min-width: 768px) {
+    .patient-selection {
+        background-position: 0 0;
+        background-size: 100% auto;
+    }
+}
+
+@media (min-width: 991px) {
+    .patient-selection {
+        background-position: 0 -64px;
+    }
+}
+
+.tab-slider-container>.after-tabslider {
+    padding: 0;
+    background: #fff;
+}
+
+.after-tabslider {
+    background-color: #af95a6;
+    color: #fff;
+    width: 100%;
+}
+
+.more-info {
+    padding: 50px 0px;
+}
+
+@media(min-width:768px) {
+    .more-info {
+        padding: 100px 0px;
+    }
+}
+
+.more-info img {
+    width: 80px;
+    margin: 40px auto 0;
+    display: block;
+}
+
+.more-info a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+
+.more-info a:hover {
+    text-decoration: none !important;
+}
+
+.more-info h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.more-info p {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+
+    .more-info img {
+        width: 140px;
+        margin: 0 auto;
+    }
+
+    .more-info h3 {
+        font-size: 36px;
+    ;
+    }
+
+    .more-info p {
+        font-size: 20px;
+    }
+
+}

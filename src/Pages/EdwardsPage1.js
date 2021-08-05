@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import { translate } from 'react-translate';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 import { EdwardsPage1Store } from '../Stores/EdwardsPage1Store';
-import ContactMap from '../Components/ContactMap';
+import Banner from '../Components/Edwards/Banner';
+import URL from '../Components/Edwards/Url';
+import Accordian from '../Components/Edwards/Accordian';
+
 
 let getState = language => {
   return {
@@ -55,7 +60,9 @@ class EdwardsPage1 extends Component {
       console.log(cafe);
       let model = {
         title: cafe.title.value,
-        descriptions: cafe.descriptions.value,
+        descriptions: cafe.description.value,
+        tabs: cafe.tabs.value,
+        webimage: cafe.webimage.value
       };
       return model;
     };
@@ -71,11 +78,37 @@ class EdwardsPage1 extends Component {
     return (
       <div className="container">
         {content && <div>
-          <h2>{content.title}</h2>
-          <div
-            dangerouslySetInnerHTML={{
-              __html: content.descriptions
-            }}></div>
+          <Banner data={content} />
+          <div>
+            <Tabs>
+              <TabList>
+                {
+                  content.tabs.map((tab, index) => {
+                    return <Tab key={index}>{tab.title.value}</Tab>
+                  })
+                }
+              </TabList>
+              {
+                content.tabs.map((tab, index) => {
+                  return <TabPanel key={index}>
+                    <div>
+                      <h2 dangerouslySetInnerHTML={{ __html: tab.title.value }}></h2>
+                    </div>
+                    <div>
+                      {
+                        tab.urls?.value?.map((url, index) => {
+                          return <URL key={index} data={url} />
+                        })
+                      }
+                    </div>
+                    <div style={{ marginTop: '10px' }}>
+                      <Accordian key={index} data={tab.accordians.value} />
+                    </div>
+                  </TabPanel>
+                })
+              }
+            </Tabs>
+          </div>
         </div>}
       </div>
     );
