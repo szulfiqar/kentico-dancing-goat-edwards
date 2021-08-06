@@ -7,6 +7,8 @@ import { EdwardsPage1Store } from '../Stores/EdwardsPage1Store';
 import Banner from '../Components/Edwards/Banner';
 import URL from '../Components/Edwards/Url';
 import Accordian from '../Components/Edwards/Accordian';
+import StickyDiv from '../Components/Edwards/StickyDiv';
+import HomeWidget from '../Components/Edwards/HomeWidget';
 
 
 let getState = language => {
@@ -62,7 +64,8 @@ class EdwardsPage1 extends Component {
         title: cafe.title.value,
         descriptions: cafe.description.value,
         tabs: cafe.tabs.value,
-        webimage: cafe.webimage.value
+        webimage: cafe.webimage.value,
+        widgetArea: cafe.widget_area.value
       };
       return model;
     };
@@ -108,6 +111,14 @@ class EdwardsPage1 extends Component {
                 })
               }
             </Tabs>
+          </div>
+          <div className="widget-wrapper">
+            {content && content.widgetArea && (
+              <StickyDiv widgetArea={content.widgetArea} />
+            )}
+            {content && content.widgetArea && (
+              <HomeWidget widgetArea={content.widgetArea} />
+            )}
           </div>
         </div>}
       </div>
