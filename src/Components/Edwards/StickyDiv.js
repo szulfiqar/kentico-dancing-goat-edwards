@@ -3,7 +3,7 @@ import { translate } from 'react-translate';
 
 const StickyDiv = (props) => {
   console.log('homewidget', props);
-  const description = props.widgetArea[0].description.value;
+//   const description = props.widgetArea[0].description.value;
   const heading = props.widgetArea[0].heading.value;
   return (
     <div className="stickywidget">
